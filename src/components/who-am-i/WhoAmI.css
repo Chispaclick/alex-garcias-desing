@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.alex_garcias-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.who_am_i-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: start;
+    
+}
+
+.who_am_i-img {
+    width: 100px;
+    border-radius: 50%;
+    padding: 25px 0;
+}
+
+.who_am_i-img:hover {
+    cursor: pointer;
+}
+
+.who_am_i-title {
+    font-size: 5rem;
+}
+
+.who_am_i-text {
+    font-size: 4rem;
+}
+
+

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.my_beginning-container {
+    display: flex;
+    width: 100vw;
+    
+    
+}
+
+.my_beginning-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 120px;
+}
+
+.my_beginning-svg {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.my_beginning-title {
+    font-size: 2.2rem;
+    padding: 15px 0;
+}
+
+.my_beginning-text {
+    font-size: 1.8rem;
+    padding: 15px 0;
+}
+
