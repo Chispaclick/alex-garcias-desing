@@ -4,7 +4,7 @@ import { IHaveWorked } from "../../components/i-have-worked/IHaveWorked";
 import { MyBeginning } from "../../components/my-beginning/MyBeginning";
 import { WhoAmI } from "../../components/who-am-i/WhoAmI";
 import { Interests } from "../../components/interests/Interests";
-import { AllTheBest } from "../../components/all-the-best/AllTheBest.JSX";
+import { AllTheBest } from "../../components/all-the-best/AllTheBest";
 import { Footer } from "../../components/footer/Footer";
 import "./Home.css";
 
