@@ -7,3 +7,8 @@ body {
     font-family: 'Cormorant Garamond', serif;
     color: #cccccc;
 }
+
+body.ligth_mode {
+    font-family: 'Cormorant Garamond', serif;
+
+}

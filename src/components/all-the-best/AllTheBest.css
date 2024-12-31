@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.all_the_best-container {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-top: 0.3px solid #cccccc36;
+}
+
+.all_the_best-wrapper {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 70px 100px;
+}
+
+.all_the_best-title {
+    font-size: 2.5rem;
+    padding: 25px 0;
+}
+
+.all_the_best-text {
+    font-size: 1.5rem;
+    padding: 15px 0;
+}
+
+.span_linkedin {
+    text-decoration: underline;
+}
+
+.all_the_best-image {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.all_the_best-img {
+    width: 100%;
+    object-fit: cover;
+}

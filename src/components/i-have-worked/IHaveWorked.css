@@ -8,14 +8,18 @@
     width: 100vw;
     border: 0.3px solid #cccccc36;
     margin-top: 100px;
+    border-left: 0;
+    border-right: 0;
 }
 
 .first_worked-container {
     display: flex;
+    position: relative;
     flex-direction: column;
     width: 50%;
     border-right: 0.3px solid #cccccc36;
     padding: 100px;
+    
 }
 
 .worked-title {
@@ -26,15 +30,24 @@
 .worked-text {
     font-size: 1.8rem;
     padding: 15px 0;
+    margin-bottom: 100px;
 }
 
 .btn_worked {
     background: none;
+    position: absolute;
     border: none;
     border: 0.3px solid #cccccc36;
     padding: 18px 55px;
     border-radius: 35px;
     width: 20%;
+    bottom: 100px;
+    transition: background-color 0.3s ease;
+}
+
+.btn_worked:hover {
+    background-color: #525252;
+    cursor: pointer;
 }
 
 

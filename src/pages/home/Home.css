@@ -3,9 +3,37 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Cormorant Garamond', serif;
+    color: #cccccc;
+    background-color: #181818;
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+body.light_mode {
+    color: #181818;
+    background-color: #cccccc; /* fondo claro */
+    opacity: 1; /* Opacidad del modo claro */
+}
+
+body.dark_mode {
+    color: #cccccc;
+    background-color: #181818; /* fondo oscuro */
+    opacity: 0.8; /* Opacidad del modo oscuro */
+}
+
+/* Si quieres efectos adicionales, puedes añadir más estilos, por ejemplo: */
+.home_container.light_mode {
+    background-color: #f0f0f0;
+}
+
+.home_container.dark_mode {
+    background-color: #181818;
+}
+
 .home_container {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    background-color: #181818;
+    
 }

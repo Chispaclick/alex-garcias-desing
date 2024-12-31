@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import  HeroiconsSolidMoon from '../../components/icons/HeroiconsSolidMoon'
 import "./Header.css";
 
-export const Header = () => {
+export const Header = ({toggleLigthMode}) => {
   const [time, setTime] = useState("");
 
   useEffect(() => {
@@ -34,8 +35,8 @@ export const Header = () => {
           <p className="nav_data-text">{time}</p>
         </div>
         <div className="nav_main-container">
-          <p className="nav_data-text">Main</p>
-          <HeroiconsSolidMoon className="moon_icon"/>
+          <Link className="nav_data-text" to="main">Main</Link>
+          <HeroiconsSolidMoon onClick={toggleLigthMode} className="moon_icon"/>
         </div>
       </div>
     </div>
